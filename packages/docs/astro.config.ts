@@ -65,6 +65,11 @@ export default defineConfig({
           label: 'Blog',
           autogenerate: { directory: 'blog' },
         },
+        {
+          label: 'Tags',
+          collapsed: true,
+          autogenerate: { directory: 'typescript' },
+        },
       ],
       expressiveCode: {
         emitExternalStylesheet: true,
