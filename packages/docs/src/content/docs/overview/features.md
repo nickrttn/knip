@@ -30,14 +30,6 @@ There are also [things Knip does **not** do][2].
 | [Watch mode][19]                           | Use `--watch` to update the reporter on file changes       |
 | [Workspace][20]                            | Use `--workspace` to lint a single workspace in a monorepo |
 
-## Issue Types
-
-- [unused files][21]
-- [unused dependencies][22]
-- [missing dependencies][23]
-- [unused exports][24]
-- [dead code][25]
-
 [1]: ../reference/issue-types.md
 [2]: ../reference/unsupported.md
 [3]: ../features/auto-fix.mdx
@@ -58,8 +50,3 @@ There are also [things Knip does **not** do][2].
 [18]: ../guides/troubleshooting.md#trace
 [19]: ../reference/cli.md#--watch
 [20]: ../features/monorepos-and-workspaces#lint-a-single-workspace
-[21]: ../typescript/unused-files.md
-[22]: ../typescript/unused-dependencies.md
-[23]: ../typescript/missing-dependencies.md
-[24]: ../typescript/unused-exports.md
-[25]: ../typescript/dead-code.md
